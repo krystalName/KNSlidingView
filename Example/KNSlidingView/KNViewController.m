@@ -7,6 +7,7 @@
 //
 
 #import "KNViewController.h"
+#import "KNBillboadrView.h"
 
 @interface KNViewController ()
 
