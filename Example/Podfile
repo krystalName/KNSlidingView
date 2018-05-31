@@ -5,7 +5,7 @@ target 'KNSlidingView_Example' do
 
   target 'KNSlidingView_Tests' do
     inherit! :search_paths
-
+    pod 'YYImage'
     pod 'FBSnapshotTestCase'
   end
 end
