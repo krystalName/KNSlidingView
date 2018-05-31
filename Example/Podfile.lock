@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - KNSlidingView (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - KNSlidingView (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  KNSlidingView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  KNSlidingView: 6ffdcd48da1bebe86728df22e1fc2e3538b8144b
+
+PODFILE CHECKSUM: 9a9a7fbf6f291805d9329672538a7e6897d55068
+
+COCOAPODS: 1.5.0

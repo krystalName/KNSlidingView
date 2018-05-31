@@ -1,0 +1,6 @@
+framework module KNSlidingView {
+  umbrella header "KNSlidingView-umbrella.h"
+
+  export *
+  module * { export * }
+}
