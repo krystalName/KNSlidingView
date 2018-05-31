@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'KNSlidingView_Example' do
+  pod 'KNSlidingView', :path => '../'
+
+  target 'KNSlidingView_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
